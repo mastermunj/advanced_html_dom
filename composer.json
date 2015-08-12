@@ -1,0 +1,19 @@
+{
+    "name": "mastermunj/advanced_html_dom",
+    "type": "library",
+    "description": "A better drop-in replacement for PHP's simple html dom.",
+    "keywords": ["xml", "xpath", "dom", "jquery"],
+    "license": "MIT",
+    "homepage": "https://github.com/mastermunj/advanced_html_dom",
+    "authors": [
+        {"name": "Advanced HTML DOM Contributors", "homepage": "https://github.com/monkeysuffrage/advanced_html_dom"}
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-dom": "*"
+    },
+    "autoload": {
+        "files" : ["advanced_html_dom.php"],
+        "psr-4": {"AdvancedHtmlDom\\": "AdvancedHtmlDom"}
+    }
+}
