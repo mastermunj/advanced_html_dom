@@ -9,8 +9,7 @@
         {"name": "Advanced HTML DOM Contributors", "homepage": "https://github.com/monkeysuffrage/advanced_html_dom"}
     ],
     "require": {
-        "php": ">=5.4.0",
-        "ext-dom": "*"
+        "php": ">=5.3",
     },
     "autoload": {
         "files" : ["advanced_html_dom.php"],
