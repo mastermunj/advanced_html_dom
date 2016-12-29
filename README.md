@@ -1,3 +1,5 @@
+Update: I tested this library with php 7.0.1 - 7.0.5 as well as PHP 5.3 and up, everything seems to be working.
+
 The goal of this project is to be a DOM-based drop-in replacement for PHP's simple html dom library.
 
 *How To Use* - The same way as simple. If you use file/str_get_html then you don't need to change anything. If you are instantiating with `new simple_html_dom()` then you will need to change that to `new AdvancedHtmlDom()`
@@ -15,3 +17,5 @@ Features
 * Jquery-style functions replace, wrap, unwrap, before after
 * Nodeset math: $doc->find('a')->minus($doc->find('.skip_me'))
 * Lots more features that haven't been documented yet.
+
+If you love Advanced HTML Dom please [vote for it](http://stackoverflow.com/questions/3577641/how-do-you-parse-and-process-html-xml-in-php) here!
